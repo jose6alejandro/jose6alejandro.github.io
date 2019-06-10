@@ -1,20 +1,20 @@
 html {
   font-size: 15px; }
 
-/*HOME*/
+/*Home and nav-bar*/
 .home {
   background: url("../img/fondo.JPG");
   background-size: cover;
-  height: 50vh;
+  height: 45vh;
   overflow: hidden;
   background-position: center; }
 
 .header-home {
-  background: #fff; }
+  background: #e9ecefb8; }
 
 .navbar-light .navbar-brand {
   color: green;
-  border-bottom: 1px solid green; }
+  border-bottom: 1px solid #71d23ad1; }
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
@@ -37,5 +37,47 @@ html {
 
 #navbarTogglerDemo02 {
   clear: both; }
+
+/*Description*/
+.description {
+  background: #71d23ad1;
+  color: #000; }
+
+.img-description {
+  border-radius: 50%;
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.btn-info {
+  color: #fff;
+  background-color: #3551b7f2;
+  border-color: #3551b7f2; }
+
+.btn-info:hover {
+  color: #fff;
+  background-color: #3551b7ad;
+  border-color: #383d41; }
+
+.h3 {
+  margin-top: 1rem; }
+
+a {
+  text-decoration: none;
+  color: #fff; }
+
+a:hover {
+  text-decoration: none;
+  color: #fff; }
+
+/*Publications*/
+.publications {
+  background: #e8e8e8; }
+
+.publications .fas {
+  color: #3551b7f2;
+  font-size: 4rem;
+  margin-bottom: 1rem; }
 
 /*# sourceMappingURL=styless.css.map */
