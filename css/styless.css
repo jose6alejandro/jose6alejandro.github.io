@@ -116,4 +116,43 @@ a:hover {
 .btn-secondary:hover {
   background-color: #6c757d54; }
 
+/*Proyectos*/
+.projects {
+  background: #3F53B1; }
+
+.text-pro {
+  color: #fff; }
+
+.projects a {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 1.8rem; }
+
+.image {
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+  min-width: 100%; }
+
+.projects a:hover img {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5); }
+
+.footer {
+  margin: .7rem;
+  margin-top: 2rem;
+  font-size: 1.1rem; }
+
+.footer-mail {
+  text-align: left; }
+
+.footer-name {
+  text-align: right; }
+
+a .fa-angle-double-up {
+  font-size: 4rem;
+  color: #000; }
+
+a .fa-angle-double-up:hover {
+  color: #91DB59; }
+
 /*# sourceMappingURL=styless.css.map */
