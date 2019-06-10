@@ -13,7 +13,7 @@ html{
 	background: #e9ecefb8;
 }
 .navbar-light .navbar-brand {
-    color: green;
+    color: #000;
     border-bottom: 1px solid #71d23ad1;
 }
 
@@ -83,8 +83,45 @@ a:hover{
     background: #e8e8e8;
 
 }
-.publications .fas{
+.publications .fa-mountain, .fa-tram{
     color: #3551b7f2;
     font-size: 4rem;
     margin-bottom: 1rem;
+}
+.fa-researchgate, .fa-mendeley, .fa-amilia, 
+.fa-google, .fa-info-circle, .fa-dove{
+    font-size: 1.4rem;
+}
+/**/
+.h6{
+    border-bottom: .1rem solid #91DB59;
+    display: inline-block;
+    margin-top: 3rem;
+}
+.fa-researchgate{
+    color: #39CAA8;
+}
+.fa-mendeley{
+    color: #8C0008;
+}
+.fa-amilia{
+    color: #292D40;
+}
+.fa-google{
+    color: #4272E7;
+}
+.fa-info-circle{
+    color: #A1C933;
+}
+.fa-dove{
+    color: #1E6687;
+}
+
+.btn-secondary{
+    color: #fff;
+    background-color: #685b5a00;
+    border-color: #62545a00;
+}
+.btn-secondary:hover{
+    background-color: #6c757d54;
 }
