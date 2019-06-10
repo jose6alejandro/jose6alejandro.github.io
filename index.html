@@ -36,7 +36,7 @@
               <a class="nav-link" href="#projects">Proyectos</a>
             </li>            
             <li class="nav-item">
-              <a class="nav-link" href="#!">Contacto</a>
+              <a class="nav-link" href="#mail">Contacto</a>
             </li>
           </ul>
         </div>
@@ -62,14 +62,19 @@
         <h3 class="h3">Publicaciones</h3>
         <div class="row">
           <div class="col-sm-6">
-            <i class="fas fa-tram"></i>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#LRS1">
+              <i class="fas fa-tram"></i>
+            </button>
+            
             <p>
               Pérez J. y Castro J., LRS1: Un robot social de bajo costo para la asignatura “Programación 1”, Revista Colombiana de Tecnologías de Avanzada, vol. 2, no. 32, pp. 68-77, 2018.
             </p>
           </div>
 
           <div class="col-sm-6">
-            <i class="fas fa-mountain"></i>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MillonarioC">
+              <i class="fas fa-mountain"></i>
+            </button>
             <p>
               Pérez J. y Castro J., Estímulo del razonamiento lógico mediante el juego Millonario en C para la asignatura “Programación 1”, Revista Tekhné, vol. 21, no. 3, pp. 8-14, 2018.
             </p>
@@ -119,7 +124,7 @@
     <footer class="footer">
       <div class="container">
         <div class="row">
-          <div class="col-sm-4 footer-mail">
+          <div class="col-sm-4 footer-mail" id="mail">
             <p><i class="fas fa-envelope"></i> castroj@ula.ve</p>
           </div>
           <div class="col-sm-4 footer-up text-center">
@@ -131,6 +136,47 @@
         </div>
       </div>
     </footer>
+    <!-- Modal LRS1 -->
+    <div class="modal fade" id="LRS1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">LRS1: Un robot social de bajo costo para la asignatura “Programación 1</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Los robots sociales han generado efectos positivos en el contexto educativo a través de diferentes roles: tutor, compañero y aprendiz. Los estudiantes de la asignatura “Programación 1” se han mostrado desmotivados en los últimos semestres. En aras de motivar el aprendizaje de los estudiantes de “Programación 1” se propone la incorporación de un robot social dentro de la dinámica de las clases. La adquisición de robots sociales comerciales es muy costosa, por lo tanto, se construye un robot social minimalista con tres habilidades principales: hablar, cambiar la expresión facial (triste, normal y feliz) y mover el cuello (arriba, abajo, izquierda, derecha y centro). El robot social construido (denominado LRS1) fue incorporado como tutor en una actividad denominada “dictado” que pertenece al normal desarrollo de la asignatura, cuyos resultados obtenidos favorecen la incorporación de un robot social de bajo costo para motivar el aprendizaje en la asignatura.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary button-close" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary button-download"><a href="http://ojs.unipamplona.edu.co/ojs_viceinves/index.php/RCTA/article/download/3028/1653">Descargar</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        <!-- Modal Millonario en C -->
+    <div class="modal fade" id="MillonarioC" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Estímulo del razonamiento lógico mediante el juego Millonario en C para la asignatura “Programación 1”</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            La asignatura “Programación 1” tiene como objetivo principal que los estudiantes desarrollen habilidades en el análisis, diseño y construcción de programas codificados en un lenguaje de programación de alto nivel, para resolver problemas. En ese sentido, es necesario que los estudiantes desarrollen el razonamiento lógico, el cual ha sido detectado como una debilidad de la mayoría de los estudiantes en los últimos semestres, por lo tanto, se propone el juego Millonario en C como un medio para estimular el razonamiento lógico desde el comienzo de la asignatura. En esta investigación, se presentan los resultados del experimento realizado para determinar la efectividad de la propuesta, el cual fue aplicado a los estudiantes del semestre A-2018. Los resultados obtenidos permiten evidenciar que el juego Millonario en C tiene incidencia positiva en el razonamiento lógico de los estudiantes.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary button-close" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary button-download"><a href="http://revistasenlinea.saber.ucab.edu.ve/temas/index.php/tekhne/article/download/3804/3272">Descargar</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
