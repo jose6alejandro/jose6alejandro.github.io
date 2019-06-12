@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/all.css">
     <!-- Cargar CSS personalizados-->
     <link rel="stylesheet" href="css/styless.css"> 
+    <link rel="shortcut icon" type="image/x-icon" href="img/jose6alejandro.png">
     <title>Jose6alejandro</title>
   </head>
 
@@ -21,13 +22,9 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand float-right" id="home" href="https://www.instagram.com/jose6alejandro" target="_blank" >Br. José Castro</a>
-
+          <a class="navbar-brand float-right" id="home" href="#" >  Br. José Castro</a>    
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#!">Inicio</a>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="#publications">Publicaciones</a>
             </li>
@@ -62,9 +59,9 @@
         <h3 class="h3">Publicaciones</h3>
         <div class="row">
           <div class="col-sm-6">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#LRS1">
+            <a href="#LRS1" data-toggle="modal" data-target="#LRS1">
               <i class="fas fa-tram"></i>
-            </button>
+            </a>
             
             <p>
               Pérez J. y Castro J., LRS1: Un robot social de bajo costo para la asignatura “Programación 1”, Revista Colombiana de Tecnologías de Avanzada, vol. 2, no. 32, pp. 68-77, 2018.
@@ -72,9 +69,9 @@
           </div>
 
           <div class="col-sm-6">
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#MillonarioC">
+            <a href="#MillonarioC" data-toggle="modal" data-target="#MillonarioC">
               <i class="fas fa-mountain"></i>
-            </button>
+            </a>
             <p>
               Pérez J. y Castro J., Estímulo del razonamiento lógico mediante el juego Millonario en C para la asignatura “Programación 1”, Revista Tekhné, vol. 21, no. 3, pp. 8-14, 2018.
             </p>
@@ -90,8 +87,7 @@
           <button type="button" class="btn btn-secondary"><a href="http://www.saber.ula.ve/discover?filtertype=author&filter_relational_operator=equals&filter=Castro,%20Jos%C3%A9" target="_blank"><i class="fas fa-dove"></i></a></button>
           
         </div>
- 
-      </div>
+       </div>
 
     </section>
     <section class="projects py-4 text-center" id="projects">
@@ -100,25 +96,27 @@
         <div class="row">
 
           <div class="col-sm-4">
-              <a href="#">
+              <a href="pro1" data-toggle="modal" data-target="#pro1">
                 <img src="img/image2.png" alt="" width="290" class="img-fluid image mx-auto">
               </a>
           </div>
 
           <div class="col-sm-4">
-            <a href="#">
+            <a href="pro2" data-toggle="modal" data-target="#pro2">
               <img src="img/image.png" alt="" width="290" class="img-fluid image mx-auto">
             </a>
           </div>
 
           <div class="col-sm-4">
-            <a href="#">
+            <a href="pro3" data-toggle="modal" data-target="#pro3">
               <img src="img/image1.png" alt="" width="290" class="img-fluid image mx-auto">              
             </a>
 
           </div>
         </div>
-      </div>  
+        <a class=" my-0" alt="GitHub" href="https://github.com/jose6alejandro" target="_blank"><i class="fab fa-github-alt my-0"></i></a>  
+      </div>
+
     </section>
 
     <footer class="footer">
@@ -199,6 +197,76 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal Proyecto1 -->
+    <div class="modal fade" id="pro1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <h5 class="modal-title" id="exampleModalLabel">Millonario en C</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+
+          </div>
+          <div class="modal-body">
+            <p class="text-center">Primer proyecto de programación posteriormente adaptado con preguntas de razonamiento lógico</p>
+            <center><iframe width="auto" height="auto" src="https://www.youtube-nocookie.com/embed/Q5bu0GuN4VA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+          </div>
+          <div class="modal-footer">
+                <button type="button" class="btn btn-primary button-contact" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Modal Proyecto2 -->
+    <div class="modal fade" id="pro2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <h5 class="modal-title" id="exampleModalLabel">Simulador LRS1</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+
+          </div>
+          <div class="modal-body">
+            <p class="text-center">Simulador como alternativa para aprender a programar</p>
+            <center><iframe width="auto" height="auto" src="https://www.youtube-nocookie.com/embed/GA42PbvoQ88" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+          </div>
+          <div class="modal-footer">
+                <button type="button" class="btn btn-primary button-contact" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Modal Proyecto3 -->
+    <div class="modal fade" id="pro3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+
+            <h5 class="modal-title" id="exampleModalLabel">Juego serio JUSECA</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+
+          </div>
+          <div class="modal-body">
+            <p class="text-center">Juego serio para reforzar la compresión de algoritmos</p>
+            <center><iframe width="auto" height="auto" src="https://www.youtube-nocookie.com/embed/hm5CWCPVrRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+          </div>
+          <div class="modal-footer">
+                <button type="button" class="btn btn-primary button-contact" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
