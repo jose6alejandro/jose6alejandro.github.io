@@ -35,6 +35,9 @@ html {
   background: #71C143;
   color: #000; }
 
+.nav-contact {
+  cursor: pointer; }
+
 #navbarTogglerDemo02 {
   clear: both; }
 
@@ -148,7 +151,7 @@ a:hover {
 .footer-mail {
   text-align: left; }
 
-.footer-name {
+.footer-home {
   text-align: right; }
 
 a .fa-angle-double-up {
@@ -168,12 +171,12 @@ a .fa-angle-double-up:hover {
   background-color: #007bff00;
   border-color: #007bff00; }
 
-.button-download {
+.button-download, .button-contact {
   color: #fff;
   background-color: #3F53B1;
   border-color: #3F53B1; }
 
-.button-download:hover {
+.button-download:hover, .button-contact:hover {
   color: #fff;
   background-color: #3551b7ad;
   border-color: #383d41; }
@@ -190,5 +193,14 @@ a .fa-angle-double-up:hover {
 
 .modal-body {
   text-align: justify; }
+
+.modal-title-contact {
+  text-align: center;
+  font-size: 1.5rem; }
+
+.modal-contact {
+  text-align: center;
+  font-size: 1.5rem;
+  background: #71d23ad1; }
 
 /*# sourceMappingURL=styless.css.map */
